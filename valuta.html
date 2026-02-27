@@ -13,7 +13,7 @@
     <h2>Valutakalkulator</h2>
 
     <div class="input-group">
-        <label for="amount">Beløp</label>
+        <label>Beløp</label>
         <input type="number" id="amount" placeholder="Skriv inn beløp">
     </div>
 
@@ -21,23 +21,187 @@
         <div class="input-group">
             <label for="from">Fra</label>
             <select id="from"> 
-                <option value="NOK">NOK</option>
-                <option value="USD">USD</option>
-                <option value="EUR">EUR</option>
-                <option value="GBP">GBP</option>
-                <option value="GBP">PHP</option>
+    <option value="#">Velg valuta</option>            
+    <option value="AFN">🇦🇫 AFN - Afghan Afghani</option>
+    <option value="DZD">🇩🇿 DZD - Algerian Dinar</option>
+    <option value="AOA">🇦🇴 AOA - Angolan Kwanza</option>
+    <option value="ARS">🇦🇷 ARS - Argentine Peso</option>
+    <option value="AMD">🇦🇲 AMD - Armenian Dram</option>
+    <option value="AUD">🇦🇺 AUD - Australian Dollar</option>
+    <option value="AZN">🇦🇿 AZN - Azerbaijani Manat</option>
+    <option value="BSD">🇧🇸 BSD - Bahamian Dollar</option>
+    <option value="BHD">🇧🇭 BHD - Bahraini Dinar</option>
+    <option value="BDT">🇧🇩 BDT - Bangladeshi Taka</option>
+    <option value="BBD">🇧🇧 BBD - Barbadian Dollar</option>
+    <option value="BYN">🇧🇾 BYN - Belarusian Ruble</option>
+    <option value="BEL">🇧🇪 EUR - Euro</option>
+    <option value="BZD">🇧🇿 BZD - Belize Dollar</option>
+    <option value="BMD">🇧🇲 BMD - Bermudian Dollar</option>
+    <option value="BTN">🇧🇹 BTN - Bhutanese Ngultrum</option>
+    <option value="BOB">🇧🇴 BOB - Bolivian Boliviano</option>
+    <option value="BAM">🇧🇦 BAM - Bosnia-Herzegovina Convertible Mark</option>
+    <option value="BWP">🇧🇼 BWP - Botswana Pula</option>
+    <option value="BRL">🇧🇷 BRL - Brazilian Real</option>
+    <option value="BND">🇧🇳 BND - Brunei Dollar</option>
+    <option value="BGN">🇧🇬 BGN - Bulgarian Lev</option>
+    <option value="BIF">🇧🇮 BIF - Burundian Franc</option>
+    <option value="KHR">🇰🇭 KHR - Cambodian Riel</option>
+    <option value="CAD">🇨🇦 CAD - Canadian Dollar</option>
+    <option value="CVE">🇨🇻 CVE - Cape Verdean Escudo</option>
+    <option value="XAF">🌍 XAF - Central African CFA Franc</option>
+    <option value="XCD">🌍 XCD - East Caribbean Dollar</option>
+    <option value="CLP">🇨🇱 CLP - Chilean Peso</option>
+    <option value="CNY">🇨🇳 CNY - Chinese Yuan</option>
+    <option value="COP">🇨🇴 COP - Colombian Peso</option>
+    <option value="KMF">🇰🇲 KMF - Comorian Franc</option>
+    <option value="CDF">🇨🇩 CDF - Congolese Franc</option>
+    <option value="CRC">🇨🇷 CRC - Costa Rican Colón</option>
+    <option value="HRK">🇭🇷 HRK - Croatian Kuna</option>
+    <option value="CUP">🇨🇺 CUP - Cuban Peso</option>
+    <option value="CZK">🇨🇿 CZK - Czech Koruna</option>
+    <option value="DKK">🇩🇰 DKK - Danish Krone</option>
+    <option value="DJF">🇩🇯 DJF - Djiboutian Franc</option>
+    <option value="DOP">🇩🇴 DOP - Dominican Peso</option>
+    <option value="EGP">🇪🇬 EGP - Egyptian Pound</option>
+    <option value="SVC">🇸🇻 SVC - Salvadoran Colón</option>
+    <option value="ERN">🇪🇷 ERN - Eritrean Nakfa</option>
+    <option value="ETB">🇪🇹 ETB - Ethiopian Birr</option>
+    <option value="FJD">🇫🇯 FJD - Fijian Dollar</option>
+    <option value="EUR">🇪🇺 EUR - Euro</option>
+    <option value="GMD">🇬🇲 GMD - Gambian Dalasi</option>
+    <option value="GEL">🇬🇪 GEL - Georgian Lari</option>
+    <option value="GHS">🇬🇭 GHS - Ghanaian Cedi</option>
+    <option value="GTQ">🇬🇹 GTQ - Guatemalan Quetzal</option>
+    <option value="GNF">🇬🇳 GNF - Guinean Franc</option>
+    <option value="GYD">🇬🇾 GYD - Guyanese Dollar</option>
+    <option value="HTG">🇭🇹 HTG - Haitian Gourde</option>
+    <option value="HNL">🇭🇳 HNL - Honduran Lempira</option>
+    <option value="HKD">🇭🇰 HKD - Hong Kong Dollar</option>
+    <option value="HUF">🇭🇺 HUF - Hungarian Forint</option>
+    <option value="ISK">🇮🇸 ISK - Icelandic Króna</option>
+    <option value="INR">🇮🇳 INR - Indian Rupee</option>
+    <option value="IDR">🇮🇩 IDR - Indonesian Rupiah</option>
+    <option value="IRR">🇮🇷 IRR - Iranian Rial</option>
+    <option value="IQD">🇮🇶 IQD - Iraqi Dinar</option>
+    <option value="ILS">🇮🇱 ILS - Israeli Shekel</option>
+    <option value="JMD">🇯🇲 JMD - Jamaican Dollar</option>
+    <option value="JPY">🇯🇵 JPY - Japanese Yen</option>
+    <option value="JOD">🇯🇴 JOD - Jordanian Dinar</option>
+    <option value="KZT">🇰🇿 KZT - Kazakhstani Tenge</option>
+    <option value="KES">🇰🇪 KES - Kenyan Shilling</option>
+    <option value="KRW">🇰🇷 KRW - South Korean Won</option>
+    <option value="KWD">🇰🇼 KWD - Kuwaiti Dinar</option>
+    <option value="KGS">🇰🇬 KGS - Kyrgyzstani Som</option>
+    <option value="LAK">🇱🇦 LAK - Lao Kip</option>
+    <option value="LBP">🇱🇧 LBP - Lebanese Pound</option>
+    <option value="LSL">🇱🇸 LSL - Lesotho Loti</option>
+    <option value="LRD">🇱🇷 LRD - Liberian Dollar</option>
+    <option value="LYD">🇱🇾 LYD - Libyan Dinar</option>
+    <option value="CHF">🇨🇭 CHF - Swiss Franc</option>
+    <option value="GBP">🇬🇧 GBP - British Pound</option>
+    <option value="USD">🇺🇸 USD - US Dollar</option>
+    <option value="NOK">🇳🇴 NOK - Norwegian Krone</option>
+    <option value="SEK">🇸🇪 SEK - Swedish Krona</option>
+    <option value="PHP">🇵🇭 PHP - Philippine Peso</option>
+    <option value="RSD">🇷🇸 RSD - Serbian Dinar</option>
+    <option value="ALL">🇦🇱 ALL - Albanian Lek</option>
 
             </select>
         </div>
 
+        <!--Swap button-->
+        <div class="currency-row">
+    <button id="swapBtn" class="swap-btn">⇄</button>
+        </div>
+
+
         <div class="input-group">
             <label for="to">Til</label>
             <select id="to">
-                <option value="USD">USD</option>
-                <option value="NOK">NOK</option>
-                <option value="EUR">EUR</option>
-                <option value="GBP">GBP</option>
-                <option value="GBP">PHP</option>
+<option value="#">Velg valuta</option>
+<option value="AFN">🇦🇫 AFN - Afghan Afghani</option>
+<option value="ALL">🇦🇱 ALL - Albanian Lek</option>
+<option value="DZD">🇩🇿 DZD - Algerian Dinar</option>
+<option value="AOA">🇦🇴 AOA - Angolan Kwanza</option>
+<option value="ARS">🇦🇷 ARS - Argentine Peso</option>
+<option value="AMD">🇦🇲 AMD - Armenian Dram</option>
+<option value="AUD">🇦🇺 AUD - Australian Dollar</option>
+<option value="AZN">🇦🇿 AZN - Azerbaijani Manat</option>
+<option value="BSD">🇧🇸 BSD - Bahamian Dollar</option>
+<option value="BHD">🇧🇭 BHD - Bahraini Dinar</option>
+<option value="BDT">🇧🇩 BDT - Bangladeshi Taka</option>
+<option value="BBD">🇧🇧 BBD - Barbadian Dollar</option>
+<option value="BYN">🇧🇾 BYN - Belarusian Ruble</option>
+<option value="BEL">🇧🇪 EUR - Euro</option>
+<option value="BZD">🇧🇿 BZD - Belize Dollar</option>
+<option value="BMD">🇧🇲 BMD - Bermudian Dollar</option>
+<option value="BTN">🇧🇹 BTN - Bhutanese Ngultrum</option>
+<option value="BOB">🇧🇴 BOB - Bolivian Boliviano</option>
+<option value="BAM">🇧🇦 BAM - Bosnia-Herzegovina Convertible Mark</option>
+<option value="BWP">🇧🇼 BWP - Botswana Pula</option>
+<option value="BRL">🇧🇷 BRL - Brazilian Real</option>
+<option value="BND">🇧🇳 BND - Brunei Dollar</option>
+<option value="BGN">🇧🇬 BGN - Bulgarian Lev</option>
+<option value="BIF">🇧🇮 BIF - Burundian Franc</option>
+<option value="KHR">🇰🇭 KHR - Cambodian Riel</option>
+<option value="CAD">🇨🇦 CAD - Canadian Dollar</option>
+<option value="CVE">🇨🇻 CVE - Cape Verdean Escudo</option>
+<option value="XAF">🌍 XAF - Central African CFA Franc</option>
+<option value="XCD">🌍 XCD - East Caribbean Dollar</option>
+<option value="CLP">🇨🇱 CLP - Chilean Peso</option>
+<option value="CNY">🇨🇳 CNY - Chinese Yuan</option>
+<option value="COP">🇨🇴 COP - Colombian Peso</option>
+<option value="KMF">🇰🇲 KMF - Comorian Franc</option>
+<option value="CDF">🇨🇩 CDF - Congolese Franc</option>
+<option value="CRC">🇨🇷 CRC - Costa Rican Colón</option>
+<option value="HRK">🇭🇷 HRK - Croatian Kuna</option>
+<option value="CUP">🇨🇺 CUP - Cuban Peso</option>
+<option value="CZK">🇨🇿 CZK - Czech Koruna</option>
+<option value="DKK">🇩🇰 DKK - Danish Krone</option>
+<option value="DJF">🇩🇯 DJF - Djiboutian Franc</option>
+<option value="DOP">🇩🇴 DOP - Dominican Peso</option>
+<option value="EGP">🇪🇬 EGP - Egyptian Pound</option>
+<option value="SVC">🇸🇻 SVC - Salvadoran Colón</option>
+<option value="ERN">🇪🇷 ERN - Eritrean Nakfa</option>
+<option value="ETB">🇪🇹 ETB - Ethiopian Birr</option>
+<option value="FJD">🇫🇯 FJD - Fijian Dollar</option>
+<option value="EUR">🇪🇺 EUR - Euro</option>
+<option value="GMD">🇬🇲 GMD - Gambian Dalasi</option>
+<option value="GEL">🇬🇪 GEL - Georgian Lari</option>
+<option value="GHS">🇬🇭 GHS - Ghanaian Cedi</option>
+<option value="GTQ">🇬🇹 GTQ - Guatemalan Quetzal</option>
+<option value="GNF">🇬🇳 GNF - Guinean Franc</option>
+<option value="GYD">🇬🇾 GYD - Guyanese Dollar</option>
+<option value="HTG">🇭🇹 HTG - Haitian Gourde</option>
+<option value="HNL">🇭🇳 HNL - Honduran Lempira</option>
+<option value="HKD">🇭🇰 HKD - Hong Kong Dollar</option>
+<option value="HUF">🇭🇺 HUF - Hungarian Forint</option>
+<option value="ISK">🇮🇸 ISK - Icelandic Króna</option>
+<option value="INR">🇮🇳 INR - Indian Rupee</option>
+<option value="IDR">🇮🇩 IDR - Indonesian Rupiah</option>
+<option value="IRR">🇮🇷 IRR - Iranian Rial</option>
+<option value="IQD">🇮🇶 IQD - Iraqi Dinar</option>
+<option value="ILS">🇮🇱 ILS - Israeli Shekel</option>
+<option value="JMD">🇯🇲 JMD - Jamaican Dollar</option>
+<option value="JPY">🇯🇵 JPY - Japanese Yen</option>
+<option value="JOD">🇯🇴 JOD - Jordanian Dinar</option>
+<option value="KZT">🇰🇿 KZT - Kazakhstani Tenge</option>
+<option value="KES">🇰🇪 KES - Kenyan Shilling</option>
+<option value="KRW">🇰🇷 KRW - South Korean Won</option>
+<option value="KWD">🇰🇼 KWD - Kuwaiti Dinar</option>
+<option value="KGS">🇰🇬 KGS - Kyrgyzstani Som</option>
+<option value="LAK">🇱🇦 LAK - Lao Kip</option>
+<option value="LBP">🇱🇧 LBP - Lebanese Pound</option>
+<option value="LSL">🇱🇸 LSL - Lesotho Loti</option>
+<option value="LRD">🇱🇷 LRD - Liberian Dollar</option>
+<option value="LYD">🇱🇾 LYD - Libyan Dinar</option>
+<option value="CHF">🇨🇭 CHF - Swiss Franc</option>
+<option value="GBP">🇬🇧 GBP - British Pound</option>
+<option value="USD">🇺🇸 USD - US Dollar</option>
+<option value="NOK">🇳🇴 NOK - Norwegian Krone</option>
+<option value="SEK">🇸🇪 SEK - Swedish Krona</option>
+<option value="PHP">🇵🇭 PHP - Philippine Peso</option>
+<option value="RSD">🇷🇸 RSD - Serbian Dinar</option>
 
             </select>
         </div>
@@ -45,7 +209,7 @@
 
     <button id="konverter">Konverter</button>
 
-    <div class="result">
+    <div id="result" class="result_style">
         0.00
     </div>
 </div>

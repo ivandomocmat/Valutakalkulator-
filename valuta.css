@@ -78,7 +78,7 @@ button:hover {
     background: #2e59d9;
 }
 
-.result {
+.result_style {
     margin-top: 20px;
     padding: 15px;
     background: #f8f9fc;
@@ -87,4 +87,27 @@ button:hover {
     font-size: 18px;
     font-weight: bold;
     color: #333;
+}
+
+.currency-row {
+    display: center;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.swap-btn {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    background: #4f6edb;
+    color: white;
+    transition: 0.2s ease;
+}
+
+.swap-btn:hover {
+    transform: rotate(180deg);
+    background: #3d5bc7;
 }
