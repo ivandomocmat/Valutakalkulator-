@@ -37,6 +37,9 @@ knapp.addEventListener('click',function(){
 	console.log(toCurrency.value);
 
 
+//Searching Functions
+
+
 
 // fromCurrency.value henter currency fra api
 	fetch(`https://v6.exchangerate-api.com/v6/${apiKey}/latest/${fromCurrency.value}`)
