@@ -1,113 +1,128 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Inter", "Segoe UI", Arial, sans-serif;
 }
 
 body {
-    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    background: #808080;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* Card container */
 .converter {
-    background: white;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-    width: 350px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+    width: 380px;
+    border: 1px solid #e5e7eb;
 }
 
 .converter h2 {
     text-align: center;
-    margin-bottom: 20px;
-    color: #333;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #111827;
+    letter-spacing: 0.5px;
 }
 
+/* Form layout */
 .input-group {
-    margin-bottom: 15px;
+    margin-bottom: 18px;
 }
 
 label {
-    font-size: 14px;
-    color: #555;
+    font-size: 13px;
+    font-weight: 500;
+    color: #6b7280;
+    margin-bottom: 6px;
     display: block;
-    margin-bottom: 5px;
 }
 
 input, select {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     border-radius: 8px;
-    border: 1px solid #ccc;
-    font-size: 16px;
-    transition: 0.3s;
+    border: 1px solid #d1d5db;
+    background: #ffffff;
+    font-size: 15px;
+    transition: 0.2s ease;
 }
 
 input:focus, select:focus {
-    border-color: #4e73df;
+    border-color: #2563eb;
     outline: none;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
 }
 
+/* Row layout */
 .row {
     display: flex;
-    gap: 10px;
+    gap: 12px;
+    align-items: flex-end;
 }
 
 .row .input-group {
     flex: 1;
 }
 
-button {
-    width: 100%;
-    padding: 12px;
-    border: none;
-    border-radius: 8px;
-    background: #4e73df;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s;
-    margin-top: 10px;
-}
-
-button:hover {
-    background: #2e59d9;
-}
-
-.result_style {
-    margin-top: 20px;
-    padding: 15px;
-    background: #f8f9fc;
-    border-radius: 8px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-    color: #333;
-}
-
+/* Swap button */
 .currency-row {
-    display: center;
+    display: flex;
     align-items: flex-end;
-    gap: 10px;
 }
 
 .swap-btn {
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    border: none;
+    height: 44px;
+    width: 44px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    background: #ffffff;
+    font-size: 16px;
     cursor: pointer;
-    font-size: 18px;
-    background: #4f6edb;
-    color: white;
     transition: 0.2s ease;
 }
 
 .swap-btn:hover {
+    background: #f3f4f6;
     transform: rotate(180deg);
-    background: #3d5bc7;
+}
+
+/* Convert button */
+button#konverter {
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    border: none;
+    background: #111827;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s ease;
+    margin-top: 15px;
+}
+
+button#konverter:hover {
+    background: #1f2937;
+}
+
+/* Result box */
+.result_style {
+    margin-top: 25px;
+    padding: 18px;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #111827;
 }

@@ -17,7 +17,7 @@ const swapBtn = document.getElementById("swapBtn");
 //resultat
 const result = document.getElementById("result");
 
-// aamountInput.value ganger med toCurrecny.value som ligger i data.conversion_rates
+// amountInput.value ganger med toCurrecny.value som ligger i data.conversion_rates
 function logExchangeRateInfo(data) {
 	result.textContent = ( amountInput.value * data.conversion_rates[toCurrency.value]);
 }
@@ -30,7 +30,7 @@ swapBtn.addEventListener('click', function(){
 })
 
 
-//Functions
+//Converter Functions
 knapp.addEventListener('click',function(){
 	console.log(amountInput.value);
 	console.log(fromCurrency.value);
